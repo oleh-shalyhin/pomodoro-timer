@@ -1,0 +1,27 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "1. Choose the task.\r 2. Set up the timer (pomodoro) for 25 minutes.\r 3. Work without interruptions and breaks until the timer rings.\r 4. Make a small break (5 minutes).\r 5. After each 4th pomodoro make a long break (20 minutes).",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleh-shalyhin/pomodoro-timer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleh-shalyhin/pomodoro-timer/issues"
+  },
+  "homepage": "https://github.com/oleh-shalyhin/pomodoro-timer#readme",
+  "devDependencies": {
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
